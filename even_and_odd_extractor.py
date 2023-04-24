@@ -6,6 +6,7 @@
 #Open 'number.txt' file for read
 with open('number.txt') as my_file:
     #read lines and conver it to int
+    numbers= [int(line.strip()) for line in my_file.readlines()]
 
 #open 'even.txt' file to write
     #open 'odd.txt' file to write
