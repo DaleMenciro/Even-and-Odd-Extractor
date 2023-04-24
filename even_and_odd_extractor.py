@@ -13,7 +13,6 @@ with open('even.txt', 'w') as file_even:
     #open 'odd.txt' file to write
     with open('odd.txt', 'w') as file_odd:
         #loop each numbers on the list
-        for num in numbers:
             #check if even
                 #write to 'even.txt' if the number is even
                 #write to 'odd.txt' if the number is odd
