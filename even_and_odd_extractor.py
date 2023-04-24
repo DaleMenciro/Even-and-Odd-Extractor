@@ -4,6 +4,7 @@
 #odd.txt that will contains all odd numbers extracted from the numbers.txt.
 
 #Open 'number.txt' file for read
+with open('number.txt') as my_file:
     #read lines and conver it to int
 
 #open 'even.txt' file to write
