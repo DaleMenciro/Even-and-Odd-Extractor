@@ -2,3 +2,13 @@
 #The program will create two other text file; the first text file will be named even.txt that 
 #will contains all even numbers extracted from the numbers.txt. The second text file will be named 
 #odd.txt that will contains all odd numbers extracted from the numbers.txt.
+
+#Open 'number.txt' file for read
+    #read lines and conver it to int
+
+#open 'even.txt' file to write
+    #open 'odd.txt' file to write
+        #loop each numbers on the list
+            #check if even
+                #write to 'even.txt' if the number is even
+                #write to 'odd.txt' if the number is odd
