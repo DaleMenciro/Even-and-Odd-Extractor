@@ -4,7 +4,7 @@
 #odd.txt that will contains all odd numbers extracted from the numbers.txt.
 
 #Open 'number.txt' file for read
-with open('number.txt') as my_file:
+with open('numbers.txt') as my_file:
     #read lines and conver it to int
     numbers= [int(line.strip()) for line in my_file.readlines()]
 
