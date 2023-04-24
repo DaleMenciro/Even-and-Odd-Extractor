@@ -17,4 +17,5 @@ with open('even.txt', 'w') as file_even:
             #check if even
             if num % 2 == 0:
                 #write to 'even.txt' if the number is even
+                file_even.write(str(num))
                 #write to 'odd.txt' if the number is odd
