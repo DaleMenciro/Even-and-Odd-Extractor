@@ -9,6 +9,7 @@ with open('numbers.txt') as my_file:
     numbers= [int(line.strip()) for line in my_file.readlines()]
 
 #open 'even.txt' file to write
+with open('even.txt', 'w') as file_even:
     #open 'odd.txt' file to write
         #loop each numbers on the list
             #check if even
