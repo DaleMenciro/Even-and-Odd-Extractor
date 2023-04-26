@@ -19,3 +19,13 @@ with open('even.txt', 'w') as file_even:
             else:
                 #write to 'odd.txt' if the number is odd
                 file_odd.write(str(num) + '\n')
+
+# Create the GUI window
+
+# Create the select input file button
+
+# Create the select output directory button
+
+# Create the extract numbers button
+
+# Start the GUI loop
