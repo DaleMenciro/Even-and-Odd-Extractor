@@ -30,6 +30,8 @@ btn_select_input = tk.Button(root, text="Select Input File", command=select_inpu
 btn_select_input.pack(pady=10)
 
 # Create the select output directory button
+btn_select_output = tk.Button(root, text="Select Output Directory", command=select_output_dir)
+btn_select_output.pack(pady=10)
 
 # Create the extract numbers button
 
