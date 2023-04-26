@@ -32,7 +32,8 @@ def extract_numbers():
                         #write to 'odd.txt' if the number is odd
                         file_odd.write(str(num) + '\n')
         messagebox.showinfo("Task Complete", "Even and odd numbers extracted successfully!")
-    except:
+    except Exception as e:
+        messagebox.showerror("Error", f"An error occurred: {str(e)}")
 
 # Create the GUI window
 root = tk.Tk()
