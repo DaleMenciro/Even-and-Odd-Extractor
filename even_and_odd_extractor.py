@@ -53,3 +53,4 @@ btn_extract_numbers = tk.Button(root, text="Extract Numbers", command=extract_nu
 btn_extract_numbers.pack(pady=10)
 
 # Start the GUI loop
+root.mainloop()
