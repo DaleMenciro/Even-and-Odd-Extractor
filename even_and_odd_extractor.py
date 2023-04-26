@@ -26,6 +26,8 @@ root.title("Extract Even and Odd Numbers")
 root.geometry("400x200")
 
 # Create the select input file button
+btn_select_input = tk.Button(root, text="Select Input File", command=select_input_file)
+btn_select_input.pack(pady=10)
 
 # Create the select output directory button
 
