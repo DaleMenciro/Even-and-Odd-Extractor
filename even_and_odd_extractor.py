@@ -1,3 +1,6 @@
+import tkinter as tk
+from tkinter import filedialog, messagebox
+
 #Open 'number.txt' file for read
 with open('numbers.txt') as my_file:
     #read lines and conver it to int
