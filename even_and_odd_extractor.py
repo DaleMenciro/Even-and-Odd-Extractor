@@ -34,5 +34,7 @@ btn_select_output = tk.Button(root, text="Select Output Directory", command=sele
 btn_select_output.pack(pady=10)
 
 # Create the extract numbers button
+btn_extract_numbers = tk.Button(root, text="Extract Numbers", command=extract_numbers)
+btn_extract_numbers.pack(pady=10)
 
 # Start the GUI loop
