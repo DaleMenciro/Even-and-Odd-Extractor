@@ -6,6 +6,11 @@ def select_input_file():
     global input_file
     input_file = filedialog.askopenfilename(title="Select Input File", filetypes=(("Text Files", "*.txt"),))
 
+def select_output_dir():
+    """Select the output directory"""
+    global output_dir
+    output_dir = filedialog.askdirectory(title="Select Output Directory")
+
 #Open 'number.txt' file for read
 with open('numbers.txt') as my_file:
     #read lines and conver it to int
