@@ -1,6 +1,11 @@
 import tkinter as tk
 from tkinter import filedialog, messagebox
 
+def select_input_file():
+    """Select the input file"""
+    global input_file
+    input_file = filedialog.askopenfilename(title="Select Input File", filetypes=(("Text Files", "*.txt"),))
+
 #Open 'number.txt' file for read
 with open('numbers.txt') as my_file:
     #read lines and conver it to int
