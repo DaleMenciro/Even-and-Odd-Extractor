@@ -21,6 +21,9 @@ with open('even.txt', 'w') as file_even:
                 file_odd.write(str(num) + '\n')
 
 # Create the GUI window
+root = tk.Tk()
+root.title("Extract Even and Odd Numbers")
+root.geometry("400x200")
 
 # Create the select input file button
 
